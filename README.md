@@ -4,7 +4,7 @@
 
 ##  What This Project Does
 
-AgroTrade replicates the analytical workflows of a trading desk at a tier-1 commodity house (Cargill, Louis Dreyfus, Viterra level).
+AgroTrade replicates the analytical workflows of a trading desk
 
 Given a question like *"Is Ukrainian wheat competitive vs US Gulf wheat delivered CIF Egypt today?"*, the platform answers automatically by combining live CBOT prices, Baltic freight rates, FOB→CIF calculation, COT positioning, weather stress, and LLM-generated trade ideas.
 
