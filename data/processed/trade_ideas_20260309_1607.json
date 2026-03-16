@@ -1,0 +1,117 @@
+{
+  "generated_at": "2026-03-09 16:07",
+  "market_summary": "Le marché des matières premières agricoles est actuellement caractérisé par une tendance haussière pour le blé et le maïs, tandis que le soja montre une certaine stabilité. Les prix des futures CBOT sont en hausse sur les trois derniers mois, avec une augmentation de 15,3% pour le blé et de 3,3% pour le maïs. La structure de marché est en contango pour les trois commodités.",
+  "trade_ideas": [
+    {
+      "id": 1,
+      "title": "Acheter du blé CBOT",
+      "type": "futures",
+      "commodity": "wheat",
+      "direction": "long",
+      "timeframe": "swing (1-2 sem)",
+      "conviction": "medium",
+      "rationale": {
+        "primary_catalyst": "La hausse des prix du blé CBOT sur les trois derniers mois",
+        "secondary_catalyst": "La structure de marché en contango",
+        "technical_setup": "Le blé CBOT est au-dessus de sa moyenne mobile à 50 jours",
+        "fundamental_driver": "Les stocks de blé sont bas, ce qui soutient les prix",
+        "freight_angle": null
+      },
+      "execution": {
+        "entry_level": "615-620 cents/bu",
+        "entry_trigger": "Dépasser la résistance à 618 cents/bu",
+        "stop_loss": "605 cents/bu, en dessous de la moyenne mobile à 50 jours",
+        "target_1": "630 cents/bu",
+        "target_2": "640 cents/bu",
+        "risk_reward": "1:2.5",
+        "position_size": "20% du portefeuille"
+      },
+      "risk_factors": [
+        "Risque de récolte excessive",
+        "Risque de concurrence avec d'autres producteurs",
+        "Risque de variation des taux de change"
+      ],
+      "monitoring": {
+        "key_dates": "WASDE du 12 mars",
+        "key_levels": "618 cents/bu et 630 cents/bu",
+        "invalidation": "Fermeture en dessous de 605 cents/bu"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Vendre du maïs CBOT",
+      "type": "futures",
+      "commodity": "corn",
+      "direction": "short",
+      "timeframe": "intraday",
+      "conviction": "low",
+      "rationale": {
+        "primary_catalyst": "La faible variation des prix du maïs CBOT sur les trois derniers mois",
+        "secondary_catalyst": "La structure de marché en contango",
+        "technical_setup": "Le maïs CBOT est en dessous de sa moyenne mobile à 50 jours",
+        "fundamental_driver": "Les stocks de maïs sont élevés, ce qui pèse sur les prix",
+        "freight_angle": null
+      },
+      "execution": {
+        "entry_level": "445-450 cents/bu",
+        "entry_trigger": "Fermeture en dessous de 447 cents/bu",
+        "stop_loss": "455 cents/bu, au-dessus de la moyenne mobile à 50 jours",
+        "target_1": "435 cents/bu",
+        "target_2": null,
+        "risk_reward": "1:2",
+        "position_size": "10% du portefeuille"
+      },
+      "risk_factors": [
+        "Risque de récolte excessive",
+        "Risque de concurrence avec d'autres producteurs",
+        "Risque de variation des taux de change"
+      ],
+      "monitoring": {
+        "key_dates": "WASDE du 12 mars",
+        "key_levels": "447 cents/bu et 455 cents/bu",
+        "invalidation": "Fermeture au-dessus de 455 cents/bu"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Acheter du soja CBOT",
+      "type": "futures",
+      "commodity": "soybean",
+      "direction": "long",
+      "timeframe": "position (1-3 mois)",
+      "conviction": "high",
+      "rationale": {
+        "primary_catalyst": "La forte demande de soja",
+        "secondary_catalyst": "La faible offre de soja",
+        "technical_setup": "Le soja CBOT est au-dessus de sa moyenne mobile à 50 jours",
+        "fundamental_driver": "Les stocks de soja sont bas, ce qui soutient les prix",
+        "freight_angle": null
+      },
+      "execution": {
+        "entry_level": "1180-1190 cents/bu",
+        "entry_trigger": "Dépasser la résistance à 1195 cents/bu",
+        "stop_loss": "1160 cents/bu, en dessous de la moyenne mobile à 50 jours",
+        "target_1": "1220 cents/bu",
+        "target_2": "1250 cents/bu",
+        "risk_reward": "1:3",
+        "position_size": "30% du portefeuille"
+      },
+      "risk_factors": [
+        "Risque de récolte excessive",
+        "Risque de concurrence avec d'autres producteurs",
+        "Risque de variation des taux de change"
+      ],
+      "monitoring": {
+        "key_dates": "WASDE du 12 mars",
+        "key_levels": "1195 cents/bu et 1220 cents/bu",
+        "invalidation": "Fermeture en dessous de 1160 cents/bu"
+      }
+    }
+  ],
+  "daily_bias": {
+    "wheat": "bullish",
+    "corn": "neutral",
+    "soybean": "bullish"
+  },
+  "key_risk_today": "Risque de variation des taux de change"
+}

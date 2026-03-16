@@ -1,0 +1,117 @@
+{
+  "generated_at": "2026-03-16 20:43",
+  "market_summary": "Le marché des céréales est actuellement en tendance haussière, avec des prix élevés pour le blé, le maïs et le soja. Les indicateurs techniques et les signaux composites sont globalement bullish, avec une attention particulière sur le soja en raison de son crush margin élevé.",
+  "trade_ideas": [
+    {
+      "id": 1,
+      "title": "Long sur le soja CBOT",
+      "type": "futures",
+      "commodity": "soybean",
+      "direction": "long",
+      "timeframe": "swing (1-2 sem)",
+      "conviction": "high",
+      "rationale": {
+        "primary_catalyst": "Le crush margin élevé du soja, qui se situe au 93,9e percentile historique, suggère une forte demande pour le soja",
+        "secondary_catalyst": "La structure de marché en contango pour le soja CBOT, avec un spread M1-M3 de +10,0c, indique une anticipation de prix plus élevés à venir",
+        "technical_setup": "Le soja CBOT a récemment cassé une résistance majeure à 1150 cents/bu, avec un RSI à 60, ce qui suggère une poursuite de la tendance haussière",
+        "fundamental_driver": "La demande forte pour le soja, combinée à des stocks relativement bas, devrait soutenir les prix",
+        "freight_angle": null
+      },
+      "execution": {
+        "entry_level": "1190-1200 cents/bu",
+        "entry_trigger": "Cassure de la résistance à 1200 cents/bu",
+        "stop_loss": "1120 cents/bu, en dessous de la moyenne mobile à 50 jours",
+        "target_1": "1250 cents/bu",
+        "target_2": "1300 cents/bu",
+        "risk_reward": "1:2.5",
+        "position_size": "20% du portefeuille"
+      },
+      "risk_factors": [
+        "Risque de récolte supérieure aux attentes",
+        "Risque de changement dans la politique commerciale",
+        "Risque de variation des taux d'intérêt"
+      ],
+      "monitoring": {
+        "key_dates": "WASDE du mois prochain",
+        "key_levels": "Moyenne mobile à 50 et 200 jours",
+        "invalidation": "Cassure de la moyenne mobile à 200 jours"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Spread calendar long M3/M6 sur le blé CBOT",
+      "type": "spread",
+      "commodity": "wheat",
+      "direction": "long_spread",
+      "timeframe": "position (1-3 mois)",
+      "conviction": "medium",
+      "rationale": {
+        "primary_catalyst": "La structure de marché en contango pour le blé CBOT, avec un spread M1-M3 de +7,0c, indique une anticipation de prix plus élevés à venir",
+        "secondary_catalyst": "Les signaux composites pour le blé sont légèrement bullish, avec un score de +0,360",
+        "technical_setup": "Le spread M3/M6 a récemment atteint un niveau historiquement bas, ce qui suggère une opportunité de rebond",
+        "fundamental_driver": "La demande pour le blé devrait rester solide, soutenue par une consommation élevée",
+        "freight_angle": null
+      },
+      "execution": {
+        "entry_level": "+5 à +10 cents/bu",
+        "entry_trigger": "Cassure de la résistance à +10 cents/bu",
+        "stop_loss": "-5 cents/bu, en dessous de la moyenne mobile à 50 jours",
+        "target_1": "+15 cents/bu",
+        "target_2": "+20 cents/bu",
+        "risk_reward": "1:2",
+        "position_size": "15% du portefeuille"
+      },
+      "risk_factors": [
+        "Risque de variation des stocks de blé",
+        "Risque de changement dans la politique commerciale",
+        "Risque de variation des taux d'intérêt"
+      ],
+      "monitoring": {
+        "key_dates": "WASDE du mois prochain",
+        "key_levels": "Moyenne mobile à 50 et 200 jours",
+        "invalidation": "Cassure de la moyenne mobile à 200 jours"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Long sur le tourteau de soja",
+      "type": "physical",
+      "commodity": "soybean",
+      "direction": "long",
+      "timeframe": "position (1-3 mois)",
+      "conviction": "high",
+      "rationale": {
+        "primary_catalyst": "Le crush margin élevé du soja, qui se situe au 93,9e percentile historique, suggère une forte demande pour le tourteau de soja",
+        "secondary_catalyst": "La demande pour le tourteau de soja devrait rester solide, soutenue par une consommation élevée dans l'industrie de l'alimentation animale",
+        "technical_setup": "Le prix du tourteau de soja a récemment cassé une résistance majeure à 300 $/ton, ce qui suggère une poursuite de la tendance haussière",
+        "fundamental_driver": "La demande forte pour le tourteau de soja, combinée à des stocks relativement bas, devrait soutenir les prix",
+        "freight_angle": "Les coûts de transport pour le tourteau de soja devraient rester stables, soutenant les prix"
+      },
+      "execution": {
+        "entry_level": "310-315 $/ton",
+        "entry_trigger": "Cassure de la résistance à 315 $/ton",
+        "stop_loss": "295 $/ton, en dessous de la moyenne mobile à 50 jours",
+        "target_1": "325 $/ton",
+        "target_2": "335 $/ton",
+        "risk_reward": "1:2.5",
+        "position_size": "20% du portefeuille"
+      },
+      "risk_factors": [
+        "Risque de récolte supérieure aux attentes",
+        "Risque de changement dans la politique commerciale",
+        "Risque de variation des taux d'intérêt"
+      ],
+      "monitoring": {
+        "key_dates": "WASDE du mois prochain",
+        "key_levels": "Moyenne mobile à 50 et 200 jours",
+        "invalidation": "Cassure de la moyenne mobile à 200 jours"
+      }
+    }
+  ],
+  "daily_bias": {
+    "wheat": "bullish",
+    "corn": "neutral",
+    "soybean": "bullish"
+  },
+  "key_risk_today": "Risque de variation des taux d'intérêt"
+}

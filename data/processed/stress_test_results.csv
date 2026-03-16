@@ -1,0 +1,10 @@
+scenario,type,description,total_pnl,duration
+us_china_trade_war_escalation,hypothetical,Escalade guerre commerciale US-Chine — tarifs soja 25%,-71464.0,180
+china_pork_crisis_2019,historical,Fièvre porcine africaine Chine — effondrement demande soja,-54302.0,60
+covid_crash_2020,historical,Crash COVID — disruption supply chains mondiales,15720.0,20
+suez_canal_blockage,hypothetical,Blocage prolongé Canal de Suez (60 jours),33285.0,60
+russia_export_ban,hypothetical,Interdiction d'exportation de blé par la Russie,88672.0,90
+ukraine_invasion_2022,historical,Invasion russe de l'Ukraine — spike prix céréales,130928.0,30
+us_drought_2012,historical,Grande sécheresse US Midwest — pires récoltes depuis 1988,133001.0,90
+el_nino_severe_2025,hypothetical,El Niño sévère — sécheresse simultanée Brésil + Australie,144334.0,120
+black_sea_blockade_2022,historical,Blocage ports Mer Noire — Ukraine/Russie = 30% exports mondiaux blé,153019.0,45

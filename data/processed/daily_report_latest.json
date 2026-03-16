@@ -1,0 +1,44 @@
+{
+  "date": "2026-03-09 16:06",
+  "headline": "Marché céréalier en légère hausse",
+  "executive_summary": "Le marché des céréales a connu une légère hausse cette semaine, avec des prix du blé et du maïs en augmentation. Les prix du soja ont également augmenté, soutenus par une forte demande et des prévisions de récolte inférieures aux attentes. Les signaux techniques et fondamentaux sont mitigés, avec une structure de marché en contango pour les trois céréales. Les traders doivent surveiller de près les niveaux techniques clés et les évolutions météorologiques pour prendre des décisions éclairées.",
+  "commodity_views": {
+    "wheat": {
+      "view": "bearish",
+      "key_driver": "La forte offre et les stocks élevés pesant sur les prix",
+      "price_range_week": "590-630 cents/bu",
+      "watch_level": "615 cents/bu"
+    },
+    "corn": {
+      "view": "neutral",
+      "key_driver": "La demande stable et les prévisions de récolte incertaines",
+      "price_range_week": "435-465 cents/bu",
+      "watch_level": "450 cents/bu"
+    },
+    "soybean": {
+      "view": "bullish",
+      "key_driver": "La forte demande et les prévisions de récolte inférieures aux attentes",
+      "price_range_week": "1150-1220 cents/bu",
+      "watch_level": "1180 cents/bu"
+    }
+  },
+  "physical_market": {
+    "best_origin_wheat": "Russie",
+    "best_origin_corn": "Brésil",
+    "best_origin_soy": "États-Unis",
+    "freight_outlook": "Stable à légèrement haussier"
+  },
+  "calendar": [
+    {
+      "date": "2026-03-15",
+      "event": "Rapport USDA sur les stocks et la production",
+      "impact": "high"
+    },
+    {
+      "date": "2026-03-20",
+      "event": "Réunion de l'OPEP sur les prix du pétrole",
+      "impact": "medium"
+    }
+  ],
+  "quote_of_day": "Le marché des céréales est comme un navire qui navigue dans une mer agitée, il faut être prêt à adapter sa stratégie en fonction des conditions changeantes."
+}

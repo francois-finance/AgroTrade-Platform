@@ -1,0 +1,27 @@
+# Data fetching
+yfinance>=0.2.40
+requests>=2.31.0
+pandas>=2.2.2
+numpy>=2.0.0
+
+# Stockage
+sqlalchemy>=2.0.27
+pyarrow>=16.0.0
+
+# Viz & debug
+rich>=13.7.0
+python-dotenv>=1.0.1
+
+# Scheduling
+schedule>=1.2.1
+
+# Fix Python 3.13
+setuptools>=70.0.0
+
+
+# Module 2 - Freight
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+geopy>=2.4.0
+
+anthropic>=0.25.0

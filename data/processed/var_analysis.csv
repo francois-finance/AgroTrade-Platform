@@ -1,0 +1,4 @@
+commodity,contracts,direction,position_value,var_1d_99_hist,cvar_1d_99_hist,var_10d_99_mc
+wheat,10,1,305625.0,12402.0,15199.0,41730.0
+corn,8,-1,178800.0,6802.0,11361.0,21142.0
+soybean,5,1,296250.0,8337.0,10568.0,25988.0

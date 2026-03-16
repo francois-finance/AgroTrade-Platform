@@ -1,0 +1,117 @@
+{
+  "generated_at": "2026-03-16 18:47",
+  "market_summary": "Le marché des matières premières agricoles est actuellement en hausse, avec des prix élevés pour le blé, le maïs et le soja. Les indicateurs techniques et fondamentaux sont globalement bullish, avec une structure de marché en contango et des signaux composites positifs.",
+  "trade_ideas": [
+    {
+      "id": 1,
+      "title": "Long sur le soja",
+      "type": "futures",
+      "commodity": "soybean",
+      "direction": "long",
+      "timeframe": "swing (1-2 sem)",
+      "conviction": "high",
+      "rationale": {
+        "primary_catalyst": "Le score composite du soja est bullish, avec un momentum et un COT positifs.",
+        "secondary_catalyst": "Le spread de crush est élevé, avec un net crush de 2,021 $/bu, ce qui soutient les prix.",
+        "technical_setup": "Le prix du soja est au-dessus de sa moyenne mobile à 50 jours, avec un RSI à 60, ce qui indique une tendance haussière.",
+        "fundamental_driver": "La demande de soja est élevée, avec des stocks faibles et une météo favorable aux récoltes.",
+        "freight_angle": null
+      },
+      "execution": {
+        "entry_level": "1180-1200 cents/bu",
+        "entry_trigger": "Prix au-dessus de la moyenne mobile à 50 jours",
+        "stop_loss": "1150 cents/bu, en dessous de la moyenne mobile à 200 jours",
+        "target_1": "1250 cents/bu",
+        "target_2": "1300 cents/bu",
+        "risk_reward": "1:2.5",
+        "position_size": "20% du portefeuille"
+      },
+      "risk_factors": [
+        "Risque de météo défavorable aux récoltes",
+        "Risque de changement dans la politique commerciale",
+        "Risque de variation dans la demande de soja"
+      ],
+      "monitoring": {
+        "key_dates": "WASDE du 10 avril",
+        "key_levels": "1200 et 1250 cents/bu",
+        "invalidation": "Prix en dessous de 1150 cents/bu"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Spread calendar sur le blé",
+      "type": "spread",
+      "commodity": "wheat",
+      "direction": "long_spread",
+      "timeframe": "intraday",
+      "conviction": "medium",
+      "rationale": {
+        "primary_catalyst": "La structure de marché du blé est en contango, avec un spread M1-M3 de +7,0c.",
+        "secondary_catalyst": "Le score composite du blé est bullish, avec un momentum et un COT positifs.",
+        "technical_setup": "Le prix du blé est au-dessus de sa moyenne mobile à 50 jours, avec un RSI à 55, ce qui indique une tendance haussière.",
+        "fundamental_driver": "La demande de blé est élevée, avec des stocks faibles et une météo favorable aux récoltes.",
+        "freight_angle": null
+      },
+      "execution": {
+        "entry_level": "611-613 cents/bu",
+        "entry_trigger": "Prix au-dessus de la moyenne mobile à 50 jours",
+        "stop_loss": "605 cents/bu, en dessous de la moyenne mobile à 200 jours",
+        "target_1": "620 cents/bu",
+        "target_2": null,
+        "risk_reward": "1:2",
+        "position_size": "10% du portefeuille"
+      },
+      "risk_factors": [
+        "Risque de météo défavorable aux récoltes",
+        "Risque de changement dans la politique commerciale",
+        "Risque de variation dans la demande de blé"
+      ],
+      "monitoring": {
+        "key_dates": "WASDE du 10 avril",
+        "key_levels": "610 et 620 cents/bu",
+        "invalidation": "Prix en dessous de 605 cents/bu"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Crush spread sur le soja",
+      "type": "spread",
+      "commodity": "crush_spread",
+      "direction": "long_spread",
+      "timeframe": "position (1-3 mois)",
+      "conviction": "high",
+      "rationale": {
+        "primary_catalyst": "Le net crush du soja est élevé, à 2,021 $/bu, ce qui soutient les prix.",
+        "secondary_catalyst": "Le score composite du soja est bullish, avec un momentum et un COT positifs.",
+        "technical_setup": "Le prix du soja est au-dessus de sa moyenne mobile à 50 jours, avec un RSI à 60, ce qui indique une tendance haussière.",
+        "fundamental_driver": "La demande de soja est élevée, avec des stocks faibles et une météo favorable aux récoltes.",
+        "freight_angle": null
+      },
+      "execution": {
+        "entry_level": "2,00-2,10 $/bu",
+        "entry_trigger": "Prix au-dessus de la moyenne mobile à 50 jours",
+        "stop_loss": "1,90 $/bu, en dessous de la moyenne mobile à 200 jours",
+        "target_1": "2,20 $/bu",
+        "target_2": "2,30 $/bu",
+        "risk_reward": "1:2.5",
+        "position_size": "30% du portefeuille"
+      },
+      "risk_factors": [
+        "Risque de météo défavorable aux récoltes",
+        "Risque de changement dans la politique commerciale",
+        "Risque de variation dans la demande de soja"
+      ],
+      "monitoring": {
+        "key_dates": "WASDE du 10 avril",
+        "key_levels": "2,00 et 2,20 $/bu",
+        "invalidation": "Prix en dessous de 1,90 $/bu"
+      }
+    }
+  ],
+  "daily_bias": {
+    "wheat": "bullish",
+    "corn": "neutral",
+    "soybean": "bullish"
+  },
+  "key_risk_today": "Risque de météo défavorable aux récoltes"
+}

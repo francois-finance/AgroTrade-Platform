@@ -1,0 +1,117 @@
+{
+  "generated_at": "2026-03-16 16:05",
+  "market_summary": "Le marché des céréales est actuellement caractérisé par une tendance haussière pour le blé et le maïs, tandis que le soja montre une légère baisse. Les indicateurs techniques et les signaux composites suggèrent une direction neutre à légèrement baissière pour les trois céréales.",
+  "trade_ideas": [
+    {
+      "id": 1,
+      "title": "Acheter du blé CBOT",
+      "type": "futures",
+      "commodity": "wheat",
+      "direction": "long",
+      "timeframe": "swing (1-2 sem)",
+      "conviction": "medium",
+      "rationale": {
+        "primary_catalyst": "La hausse des prix du blé ces dernières semaines est soutenue par une demande accrue et des prévisions de récolte inférieures aux attentes.",
+        "secondary_catalyst": "La structure de marché en contango suggère que les investisseurs sont prêts à payer un premium pour acheter du blé à terme.",
+        "technical_setup": "Le blé a rompu la résistance à 600 cents/bu et se dirige vers 650 cents/bu.",
+        "fundamental_driver": "La demande chinoise de blé est en augmentation, ce qui devrait soutenir les prix.",
+        "freight_angle": null
+      },
+      "execution": {
+        "entry_level": "615-620 cents/bu",
+        "entry_trigger": "Rompre la résistance à 620 cents/bu",
+        "stop_loss": "590 cents/bu, en dessous de la moyenne mobile à 50 jours",
+        "target_1": "650 cents/bu",
+        "target_2": "680 cents/bu",
+        "risk_reward": "1:2.5",
+        "position_size": "20% du portefeuille"
+      },
+      "risk_factors": [
+        "Une baisse de la demande chinoise de blé",
+        "Une augmentation des récoltes de blé en Europe",
+        "Une fluctuation du taux de change dollar/euro"
+      ],
+      "monitoring": {
+        "key_dates": "WASDE du 10 avril",
+        "key_levels": "620 cents/bu, 650 cents/bu",
+        "invalidation": "Fermeture en dessous de 590 cents/bu"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Vendre du soja CBOT",
+      "type": "futures",
+      "commodity": "soybean",
+      "direction": "short",
+      "timeframe": "intraday",
+      "conviction": "low",
+      "rationale": {
+        "primary_catalyst": "Le soja a atteint un niveau de résistance à 1200 cents/bu et pourrait subir une correction.",
+        "secondary_catalyst": "La structure de marché en contango suggère que les investisseurs sont prêts à vendre du soja à terme.",
+        "technical_setup": "Le soja a formé un haut en tête d'épaule inverse.",
+        "fundamental_driver": "La récolte de soja aux États-Unis est en bonne voie.",
+        "freight_angle": null
+      },
+      "execution": {
+        "entry_level": "1190-1200 cents/bu",
+        "entry_trigger": "Rompre la résistance à 1200 cents/bu",
+        "stop_loss": "1220 cents/bu, au-dessus de la moyenne mobile à 50 jours",
+        "target_1": "1150 cents/bu",
+        "target_2": null,
+        "risk_reward": "1:1.5",
+        "position_size": "10% du portefeuille"
+      },
+      "risk_factors": [
+        "Une augmentation de la demande chinoise de soja",
+        "Une baisse des récoltes de soja en Amérique du Sud",
+        "Une fluctuation du taux de change dollar/real"
+      ],
+      "monitoring": {
+        "key_dates": "WASDE du 10 avril",
+        "key_levels": "1200 cents/bu, 1150 cents/bu",
+        "invalidation": "Fermeture au-dessus de 1220 cents/bu"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Acheter du spread calendar blé",
+      "type": "spread",
+      "commodity": "wheat",
+      "direction": "long_spread",
+      "timeframe": "position (1-3 mois)",
+      "conviction": "high",
+      "rationale": {
+        "primary_catalyst": "La structure de marché en contango suggère que les investisseurs sont prêts à payer un premium pour acheter du blé à terme.",
+        "secondary_catalyst": "La demande de blé est en augmentation, ce qui devrait soutenir les prix.",
+        "technical_setup": "Le spread calendar est en train de se resserrer.",
+        "fundamental_driver": "La récolte de blé en Europe est inférieure aux attentes.",
+        "freight_angle": null
+      },
+      "execution": {
+        "entry_level": "5-7 cents/bu",
+        "entry_trigger": "Rompre la résistance à 7 cents/bu",
+        "stop_loss": "2 cents/bu, en dessous de la moyenne mobile à 50 jours",
+        "target_1": "10 cents/bu",
+        "target_2": "15 cents/bu",
+        "risk_reward": "1:3",
+        "position_size": "30% du portefeuille"
+      },
+      "risk_factors": [
+        "Une baisse de la demande de blé",
+        "Une augmentation des récoltes de blé en Europe",
+        "Une fluctuation du taux de change dollar/euro"
+      ],
+      "monitoring": {
+        "key_dates": "WASDE du 10 avril",
+        "key_levels": "7 cents/bu, 10 cents/bu",
+        "invalidation": "Fermeture en dessous de 2 cents/bu"
+      }
+    }
+  ],
+  "daily_bias": {
+    "wheat": "bullish",
+    "corn": "neutral",
+    "soybean": "bearish"
+  },
+  "key_risk_today": "La météo en Amérique du Sud et les décisions de politique agricole en Chine"
+}

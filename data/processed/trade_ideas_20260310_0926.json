@@ -1,0 +1,117 @@
+{
+  "generated_at": "2026-03-10 09:26",
+  "market_summary": "Le marché des céréales est actuellement en contango, avec des prix élevés pour le blé, le maïs et le soja. Les indicateurs techniques et les signaux composites sont globalement bearish pour ces trois commodités.",
+  "trade_ideas": [
+    {
+      "id": 1,
+      "title": "Short sur le blé CBOT",
+      "type": "futures",
+      "commodity": "wheat",
+      "direction": "short",
+      "timeframe": "swing (1-2 sem)",
+      "conviction": "medium",
+      "rationale": {
+        "primary_catalyst": "Le score composite bearish pour le blé",
+        "secondary_catalyst": "La structure de marché en contango",
+        "technical_setup": "Le prix du blé est au-dessus de sa moyenne mobile à 50 jours",
+        "fundamental_driver": "Les stocks de blé sont élevés",
+        "freight_angle": null
+      },
+      "execution": {
+        "entry_level": "615-620 cents/bu",
+        "entry_trigger": "Prix au-dessus de 615 cents/bu",
+        "stop_loss": "630 cents/bu, niveau de résistance",
+        "target_1": "590 cents/bu",
+        "target_2": "570 cents/bu",
+        "risk_reward": "1:2.5",
+        "position_size": "20% du portefeuille"
+      },
+      "risk_factors": [
+        "Risque de météo favorable aux récoltes",
+        "Risque de variation des stocks de blé",
+        "Risque de changement dans les politiques commerciales"
+      ],
+      "monitoring": {
+        "key_dates": "WASDE du 15 mars",
+        "key_levels": "600 et 630 cents/bu",
+        "invalidation": "Prix au-dessus de 640 cents/bu"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Long sur le spread calendar soja",
+      "type": "spread",
+      "commodity": "soybean",
+      "direction": "long_spread",
+      "timeframe": "position (1-3 mois)",
+      "conviction": "high",
+      "rationale": {
+        "primary_catalyst": "Le spread calendar soja est actuellement étroit",
+        "secondary_catalyst": "La demande de soja est élevée",
+        "technical_setup": "Le spread calendar soja est en dessous de sa moyenne mobile à 200 jours",
+        "fundamental_driver": "Les stocks de soja sont bas",
+        "freight_angle": null
+      },
+      "execution": {
+        "entry_level": "10-15 cents/bu",
+        "entry_trigger": "Spread calendar inférieur à 10 cents/bu",
+        "stop_loss": "5 cents/bu, niveau de support",
+        "target_1": "20 cents/bu",
+        "target_2": "30 cents/bu",
+        "risk_reward": "1:3",
+        "position_size": "30% du portefeuille"
+      },
+      "risk_factors": [
+        "Risque de variation des stocks de soja",
+        "Risque de changement dans les politiques commerciales",
+        "Risque de météo défavorable aux récoltes"
+      ],
+      "monitoring": {
+        "key_dates": "WASDE du 15 mars",
+        "key_levels": "15 et 25 cents/bu",
+        "invalidation": "Spread calendar au-dessus de 35 cents/bu"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Arbitrage physique inter-origines pour le maïs",
+      "type": "physical",
+      "commodity": "corn",
+      "direction": "long",
+      "timeframe": "intraday",
+      "conviction": "low",
+      "rationale": {
+        "primary_catalyst": "Le prix du maïs est plus élevé en Asie qu'en Amérique du Nord",
+        "secondary_catalyst": "Les coûts de transport sont bas",
+        "technical_setup": null,
+        "fundamental_driver": "La demande de maïs est élevée en Asie",
+        "freight_angle": "Les coûts de transport sont favorables"
+      },
+      "execution": {
+        "entry_level": "440-450 cents/bu",
+        "entry_trigger": "Prix en Asie supérieur à 450 cents/bu",
+        "stop_loss": "420 cents/bu, niveau de support",
+        "target_1": "460 cents/bu",
+        "target_2": null,
+        "risk_reward": "1:2",
+        "position_size": "10% du portefeuille"
+      },
+      "risk_factors": [
+        "Risque de variation des coûts de transport",
+        "Risque de changement dans les politiques commerciales",
+        "Risque de météo défavorable aux récoltes"
+      ],
+      "monitoring": {
+        "key_dates": null,
+        "key_levels": "420 et 460 cents/bu",
+        "invalidation": "Prix en Asie inférieur à 420 cents/bu"
+      }
+    }
+  ],
+  "daily_bias": {
+    "wheat": "bearish",
+    "corn": "neutral",
+    "soybean": "bearish"
+  },
+  "key_risk_today": "Risque de météo défavorable aux récoltes"
+}

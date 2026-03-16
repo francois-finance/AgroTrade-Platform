@@ -1,0 +1,117 @@
+{
+  "generated_at": "2026-03-16 14:25",
+  "market_summary": "Le marché des céréales est en légère hausse, avec le blé et le maïs enregistrant des gains de 16% et 4.1% sur le mois, respectivement. Le soja affiche une performance plus modérée, avec une augmentation de 8.5% sur le mois.",
+  "trade_ideas": [
+    {
+      "id": 1,
+      "title": "Long sur le soja",
+      "type": "futures",
+      "commodity": "soybean",
+      "direction": "long",
+      "timeframe": "swing (1-2 sem)",
+      "conviction": "medium",
+      "rationale": {
+        "primary_catalyst": "Le spread de crush du soja est à un niveau historiquement élevé, ce qui suggère une forte demande pour le soja",
+        "secondary_catalyst": "La structure de marché en contango pour le soja indique une attente de hausses de prix à court terme",
+        "technical_setup": "Le soja a rompu la résistance à 1180 cents/bu et se dirige vers 1200 cents/bu",
+        "fundamental_driver": "La demande chinoise pour le soja devrait rester forte, soutenant les prix",
+        "freight_angle": null
+      },
+      "execution": {
+        "entry_level": "1185-1190 cents/bu",
+        "entry_trigger": "Rompre la résistance à 1190 cents/bu",
+        "stop_loss": "1150 cents/bu, en cas de retournement de tendance",
+        "target_1": "1220 cents/bu",
+        "target_2": "1250 cents/bu",
+        "risk_reward": "1:2.5",
+        "position_size": "20% du portefeuille"
+      },
+      "risk_factors": [
+        "Risque de retournement de tendance",
+        "Risque de changement dans la politique commerciale chinoise",
+        "Risque de mauvaises conditions météorologiques pour la récolte"
+      ],
+      "monitoring": {
+        "key_dates": "WASDE du 10 avril",
+        "key_levels": "1180 et 1200 cents/bu",
+        "invalidation": "Fermeture en dessous de 1150 cents/bu"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Short sur le blé",
+      "type": "futures",
+      "commodity": "wheat",
+      "direction": "short",
+      "timeframe": "intraday",
+      "conviction": "low",
+      "rationale": {
+        "primary_catalyst": "Le blé a atteint un niveau de résistance à 611 cents/bu",
+        "secondary_catalyst": "La structure de marché en contango pour le blé indique une attente de hausses de prix à court terme, mais le momentum est faible",
+        "technical_setup": "Le blé a formé un haut en tête d'épaule, ce qui pourrait indiquer un retournement de tendance",
+        "fundamental_driver": "La production de blé devrait être suffisante pour répondre à la demande",
+        "freight_angle": null
+      },
+      "execution": {
+        "entry_level": "610-612 cents/bu",
+        "entry_trigger": "Rompre la résistance à 612 cents/bu",
+        "stop_loss": "615 cents/bu, en cas de poursuite de la tendance haussière",
+        "target_1": "605 cents/bu",
+        "target_2": null,
+        "risk_reward": "1:2",
+        "position_size": "10% du portefeuille"
+      },
+      "risk_factors": [
+        "Risque de poursuite de la tendance haussière",
+        "Risque de changement dans la politique commerciale",
+        "Risque de mauvaises conditions météorologiques pour la récolte"
+      ],
+      "monitoring": {
+        "key_dates": "WASDE du 10 avril",
+        "key_levels": "605 et 612 cents/bu",
+        "invalidation": "Fermeture au-dessus de 615 cents/bu"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Long sur le spread de crush du soja",
+      "type": "spread",
+      "commodity": "crush_spread",
+      "direction": "long",
+      "timeframe": "position (1-3 mois)",
+      "conviction": "high",
+      "rationale": {
+        "primary_catalyst": "Le spread de crush du soja est à un niveau historiquement élevé, ce qui suggère une forte demande pour le soja",
+        "secondary_catalyst": "La structure de marché en contango pour le soja indique une attente de hausses de prix à court terme",
+        "technical_setup": "Le spread de crush du soja a rompu la résistance à 2.00 $/bu",
+        "fundamental_driver": "La demande chinoise pour le soja devrait rester forte, soutenant les prix",
+        "freight_angle": null
+      },
+      "execution": {
+        "entry_level": "2.00-2.05 $/bu",
+        "entry_trigger": "Rompre la résistance à 2.05 $/bu",
+        "stop_loss": "1.90 $/bu, en cas de retournement de tendance",
+        "target_1": "2.20 $/bu",
+        "target_2": "2.50 $/bu",
+        "risk_reward": "1:3",
+        "position_size": "30% du portefeuille"
+      },
+      "risk_factors": [
+        "Risque de retournement de tendance",
+        "Risque de changement dans la politique commerciale chinoise",
+        "Risque de mauvaises conditions météorologiques pour la récolte"
+      ],
+      "monitoring": {
+        "key_dates": "WASDE du 10 avril",
+        "key_levels": "2.00 et 2.20 $/bu",
+        "invalidation": "Fermeture en dessous de 1.90 $/bu"
+      }
+    }
+  ],
+  "daily_bias": {
+    "wheat": "bearish",
+    "corn": "neutral",
+    "soybean": "bullish"
+  },
+  "key_risk_today": "Risque de changement dans la politique commerciale chinoise"
+}

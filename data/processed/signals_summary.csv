@@ -1,0 +1,4 @@
+commodity,momentum,rsi,bb,cot,bdi,weather,ndvi,composite,direction,conviction,cot_pctile,ndvi_value
+wheat,1,-1,-1,1,0,0,0,0.36,BULLISH 🟢,100,1.0,
+corn,1,0,-1,0,0,0,0,0.14,NEUTRAL ⚪,0,77.9,
+soybean,1,-1,-1,1,0,0,0,0.26,BULLISH 🟢,86,9.6,
