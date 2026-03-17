@@ -1,0 +1,119 @@
+# sources_rss.yaml — Sources RSS vérifiées et fonctionnelles
+
+sources:
+
+  grains:
+    - name: GrainCentral_Australia
+      url: "https://www.graincentral.com/feed/"
+      type: rss
+      language: en
+      tags: ["australia", "wheat", "grains", "barley"]
+      weight: 0.9
+
+    - name: FarmProgress_US
+      url: "https://www.farmprogress.com/rss.xml"
+      type: rss
+      language: en
+      tags: ["us", "corn", "soy", "wheat", "weather"]
+      weight: 0.8
+
+    - name: TheProducer_Canada
+      url: "https://www.producer.com/feed/"
+      type: rss
+      language: en
+      tags: ["canada", "wheat", "canola", "grains"]
+      weight: 0.8
+
+    - name: CanalRural_Brazil
+      url: "https://www.canalrural.com.br/feed/"
+      type: rss
+      language: pt
+      tags: ["brazil", "soy", "corn", "grains"]
+      weight: 0.8
+
+    - name: Agrofy_Argentina
+      url: "https://news.agrofy.com.ar/rss.xml"
+      type: rss
+      language: es
+      tags: ["argentina", "soy", "corn", "wheat"]
+      weight: 0.8
+
+    - name: WorldGrain_News
+      url: "https://www.world-grain.com/rss/news"
+      type: rss
+      language: en
+      tags: ["global", "wheat", "corn", "grains", "market"]
+      weight: 1.0
+
+    - name: AgriMoney_News
+      url: "https://www.agrimoney.com/rss/news.rss"
+      type: rss
+      language: en
+      tags: ["global", "grains", "commodities", "market"]
+      weight: 0.9
+
+    - name: SuccessfulFarming_US
+      url: "https://www.agriculture.com/rss/news"
+      type: rss
+      language: en
+      tags: ["us", "corn", "soy", "wheat"]
+      weight: 0.7
+
+    - name: KCBT_WheatNews
+      url: "https://kswheat.com/rss.xml"
+      type: rss
+      language: en
+      tags: ["us", "wheat", "kansas"]
+      weight: 0.7
+
+  macro:
+    - name: FT_Commodities
+      url: "https://www.ft.com/rss/commodities"
+      type: rss
+      language: en
+      tags: ["global", "commodities", "macro", "fx"]
+      weight: 1.0
+
+    - name: TheGuardian_Environment
+      url: "https://www.theguardian.com/environment/rss"
+      type: rss
+      language: en
+      tags: ["weather", "climate", "enso", "macro"]
+      weight: 0.7
+
+    - name: BBC_Business
+      url: "https://feeds.bbci.co.uk/news/business/rss.xml"
+      type: rss
+      language: en
+      tags: ["macro", "global", "economy"]
+      weight: 0.7
+
+    - name: CNBC_Commodities
+      url: "https://www.cnbc.com/id/100563469/device/rss/rss.html"
+      type: rss
+      language: en
+      tags: ["macro", "commodities", "oil", "fx"]
+      weight: 0.8
+
+  shipping:
+    - name: Splash247_Shipping
+      url: "https://splash247.com/feed/"
+      type: rss
+      language: en
+      tags: ["shipping", "logistics", "bulk", "freight", "bdi"]
+      weight: 0.9
+
+  geopolitics:
+    - name: AP_TopNews
+      url: "https://apnews.com/rss/apf-topnews"
+      type: rss
+      language: en
+      tags: ["global", "geopolitics", "macro"]
+      weight: 0.8
+
+    - name: Politico_EU
+      url: "https://www.politico.eu/rss"
+      type: rss
+      language: en
+      tags: ["europe", "policy", "grains", "eu"]
+      weight: 0.7

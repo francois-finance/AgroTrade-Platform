@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-03-17 10:41 UTC",
+  "total_articles": 25,
+  "macro_score": {
+    "final_macro_score": 4,
+    "weather": 0,
+    "fx": 0,
+    "energy": 0,
+    "shipping": 0,
+    "other": 4
+  },
+  "sentiment_by_commodity": {
+    "wheat": {
+      "n_articles": 2,
+      "avg_sentiment": -1.0,
+      "bullish": 0,
+      "bearish": 2,
+      "neutral": 0,
+      "top_articles": [
+        {
+          "title": "BOM weekly rainfall update 17 March 2026 + outlook",
+          "url": "https://www.graincentral.com/weather/bom-weekly-rainfall-update-17-march-2026-outlook/",
+          "sentiment": "bearish",
+          "analysis": "Les précipitations attendues dans les régions productrices de grains en Australie pourraient entraîner une augmentation des rendements et une meilleure qualité des récoltes, ce qui pourrait exercer une pression à la baisse sur les prix. Les traders devraient surveiller de près les conditions météorologiques et ajuster leurs stratégies en conséquence. Les prix pourraient baisser à court terme en raison de l'augmentation de l'offre.",
+          "impact": "Impact négatif sur les prix, -2-3% baissier court terme",
+          "outlook": "Perspective baissière pour les prix à court terme, avec un potentiel de rebond si les conditions météorologiques s'améliorent",
+          "source": "GrainCentral_Australia",
+          "published": "2026-03-17T05:31:06+00:00"
+        },
+        {
+          "title": "Daily Market Wire 17 March 2026",
+          "url": "https://www.graincentral.com/markets/daily-market-wire-17-march-2026/",
+          "sentiment": "bearish",
+          "analysis": "Le marché des céréales secondaires est touché par la baisse, notamment le blé et les céréales grossières. Les prix élevés des céréales livrées ont un impact négatif sur le marché. La tendance baissière pourrait se poursuivre dans les prochains jours.",
+          "impact": "La baisse pourrait atteindre 2-4% à court terme, ce qui pourrait avoir un impact négatif sur les prix.",
+          "outlook": "Les prix pourraient rester sous pression dans les deux semaines à venir en raison de la tendance baissière actuelle.",
+          "source": "GrainCentral_Australia",
+          "published": "2026-03-16T23:15:23+00:00"
+        }
+      ]
+    },
+    "other": {
+      "n_articles": 23,
+      "avg_sentiment": 0.17,
+      "bullish": 4,
+      "bearish": 0,
+      "neutral": 19,
+      "top_articles": [
+        {
+          "title": "EPA orders Manildra arm to fund projects after 2024 silo collapse",
+          "url": "https://www.graincentral.com/news/shoalhaven-starches-directed-to-fund-projects-after-silo-collapse/",
+          "sentiment": "neutral",
+          "analysis": "L'entreprise Manildra Group, productrice de Amidon, doit payer plus de 170 000 dollars pour des projets communautaires et environnementaux. Cet événement n'a pas d'impact direct sur les prix des matières premières agricoles. Les traders doivent surveiller les événements politiques et réglementaires pouvant affecter les entreprises agroalimentaires.",
+          "impact": "Aucun impact direct sur les prix",
+          "outlook": "Stable à court terme",
+          "source": "GrainCentral_Australia",
+          "published": "2026-03-17T05:43:48+00:00"
+        },
+        {
+          "title": "Fertiliser fiasco kindles food for thought",
+          "url": "https://www.graincentral.com/markets/fertiliser-fiasco-kindles-food-for-thought/",
+          "sentiment": "bullish",
+          "analysis": "La pénurie de fertilisants et de gaz due au conflit entre les forces iraniennes et américano-israéliennes pourrait entraîner une augmentation des coûts de production pour les agriculteurs, ce qui pourrait avoir un impact haussier sur les prix des denrées alimentaires. Les traders devraient surveiller de près l'évolution de la situation pour anticiper les mouvements de prix. Les prix des denrées alimentaires pourraient augmenter à court terme en raison de la pénurie de fertilisants.",
+          "impact": "Impact haussier court terme de +2-4% sur les prix des denrées alimentaires",
+          "outlook": "Perspective haussière pour les prix des denrées alimentaires dans les 1-2 semaines à venir",
+          "source": "GrainCentral_Australia",
+          "published": "2026-03-17T00:05:49+00:00"
+        },
+        {
+          "title": "Australia’s Jan barley sorghum exports both up 16pc",
+          "url": "https://www.graincentral.com/markets/australias-jan-barley-sorghum-exports-both-up-16pc/",
+          "sentiment": "bullish",
+          "analysis": "L'exportation record de barley en janvier en Australie pourrait entraîner une augmentation de la demande pour les autres céréales, ce qui pourrait avoir un impact positif sur les prix. Les traders pourraient profiter de cette tendance haussière à court terme. Cependant, il est important de surveiller les données de production et de stock pour anticiper les mouvements de prix futurs.",
+          "impact": "L'impact direct sur les prix pourrait être une augmentation de 2-4% à court terme, en raison de la forte demande et de la faible offre.",
+          "outlook": "Les prix pourraient rester haussiers dans les prochaines semaines, en raison de la forte demande et de la faible offre, mais il est important de surveiller les données de production et de stock pour anticiper les mouvements de prix futurs.",
+          "source": "GrainCentral_Australia",
+          "published": "2026-03-16T22:22:41+00:00"
+        },
+        {
+          "title": "WA plant to produce 2.3Mt of urea from mid-2027",
+          "url": "https://www.graincentral.com/news/wa-plant-to-produce-2-3mt-of-urea-from-mid-2027/",
+          "sentiment": "bullish",
+          "analysis": "La production d'urée à partir de 2027 pourrait avoir un impact sur les prix des engrais, ce qui pourrait à son tour influencer les coûts de production pour les agriculteurs. Cela pourrait entraîner une augmentation des prix des produits agricoles. L'impact sur les prix sera probablement limité aux engrais et aux produits agricoles qui en dépendent.",
+          "impact": "L'impact direct sur les prix sera probablement faible, mais pourrait atteindre +1-2% haussier à court terme pour les engrais.",
+          "outlook": "Les prix des engrais et des produits agricoles pourraient rester stables à haussiers dans les prochaines semaines en raison de cette annonce.",
+          "source": "GrainCentral_Australia",
+          "published": "2026-03-16T02:29:41+00:00"
+        },
+        {
+          "title": "Fertiliser situation to become clearer by end of March",
+          "url": "https://www.graincentral.com/news/fertiliser-situation-to-become-better-known-by-end-march/",
+          "sentiment": "neutral",
+          "analysis": "La situation des fertilisants devrait devenir plus claire d'ici la fin mars, ce qui pourrait avoir un impact sur les plans de plantation des agriculteurs. Les importateurs cherchant à diversifier leurs sources d'approvisionnement pourraient influencer les prix des matières premières agricoles. Cependant, l'impact direct sur les prix des grains n'est pas clair à ce stade.",
+          "impact": "Aucun impact direct sur les prix des grains pour le moment, mais une possible hausse des coûts de production à moyen terme.",
+          "outlook": "Les prix des grains pourraient rester stables à court terme, mais une surveillance étroite de la situation des fertilisants est nécessaire pour anticiper les éventuels changements de tendance.",
+          "source": "GrainCentral_Australia",
+          "published": "2026-03-16T05:31:30+00:00"
+        }
+      ]
+    }
+  },
+  "top_alerts": [
+    {
+      "title": "Fertiliser fiasco kindles food for thought",
+      "url": "https://www.graincentral.com/markets/fertiliser-fiasco-kindles-food-for-thought/",
+      "severity": "watch",
+      "score": 4,
+      "tags": "conflict",
+      "commodity": "other",
+      "analysis": "La pénurie de fertilisants et de gaz due au conflit entre les forces iraniennes et américano-israéliennes pourrait entraîner une augmentation des coûts de production pour les agriculteurs, ce qui pourrait avoir un impact haussier sur les prix des denrées alimentaires. Les traders devraient surveiller de près l'évolution de la situation pour anticiper les mouvements de prix. Les prix des denrées alimentaires pourraient augmenter à court terme en raison de la pénurie de fertilisants."
+    }
+  ]
+}

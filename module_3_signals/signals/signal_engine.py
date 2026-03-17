@@ -118,7 +118,14 @@ def run_signal_engine(save: bool = True) -> dict:
     technical = {c: run_all_technical(c, save=False) for c in ["wheat","corn","soybean"]}
 
     console.print("[dim]Signaux COT...[/dim]")
-    cot_df = compute_cot_signals(save=False)
+    cot_df = compute_cot_signals(save=True)
+
+    # Force la sauvegarde si synthétique
+    from config import DATA_PROCESSED
+    cot_path = DATA_PROCESSED / "cot_signals.csv"
+    if not cot_path.exists() and not cot_df.empty:
+        cot_df.to_csv(cot_path, index=False)
+        console.print("[blue]💾 COT signals synthétiques sauvegardés[/blue]")
 
     console.print("[dim]Signaux BDI...[/dim]")
     bdi_df = compute_bdi_signals(save=False)
@@ -130,7 +137,8 @@ def run_signal_engine(save: bool = True) -> dict:
     console.print("[dim]Signaux NDVI satellite...[/dim]")
     ndvi_df = pd.DataFrame()
     try:
-        ndvi_path = DATA_RAW / "ndvi_vegetation.csv"
+        from config import DATA_RAW as _DATA_RAW
+        ndvi_path = _DATA_RAW / "ndvi_vegetation.csv"
         if ndvi_path.exists():
             ndvi_df = pd.read_csv(ndvi_path, parse_dates=["date"])
             console.print(f"[green]✓ NDVI chargé — {ndvi_df['zone'].nunique()} zones[/green]")
